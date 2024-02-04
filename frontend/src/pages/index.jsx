@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Data analytics"} />
+      <SEO pageTitle={"Portal - Website"} />  {/* changed page title */}
       <HomeOne />
     </Wrapper>
   );
