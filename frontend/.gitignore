@@ -2,6 +2,10 @@
 
 # folder
 /documentation
+documentation
+/backend
+backend
+backend/
 # dependencies
 /node_modules
 /.pnp
@@ -32,3 +36,12 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+env
+.env
+/env
+env/
+venv
+.env/
+/.env
