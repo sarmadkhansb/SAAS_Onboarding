@@ -37,23 +37,23 @@ const HeroArea = () => {
                            <div className="tp-hero-five-section-wrap">
                               <div className="tp-hero-five-section-box z-index">
                                  <h3 className="tp-hero-title-5 hero-text-anim-2">
-                                    <i><i className="child-2">Offer The <br /></i></i>
+                                    <i><i className="child-2"><br /></i></i>
                                     <i>
                                        <i className="child-2">
-                                          Best <span className="child-1 p-relative">Business 
+                                          <span className="child-1 p-relative">Client Portal 
                                           <LineShapTwo />  
                                           </span>  
                                           <br /> 
                                        </i>
                                     </i>
-                                    <i><i className="child-2"><span className="child-2">Management</span> With <br /></i></i>
-                                    <i><i className="child-2">Software</i></i>
+                                    <i><i className="child-2"><span className="child-2">Software</span> For <br /></i></i>
+                                    <i><i className="child-2">Growing Agencies</i></i>
                                  </h3>
-                                 <p className="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">A simple solution for building the optimal work <br /> schedule for your business.</p>
+                                 <p className="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">Bring your clients, payments and projects under one roof <br /> Built for Digital Marketing, SEO & Content agencies.</p>
                               </div>
                               <div className="tp-hero-five-btn-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                                 <Link className="tp-btn-blue-lg purple-bg circle-effect mr-15 mb-20" href="/">Get Started</Link>
-                                 <Link className="tp-btn-grey mb-20" href="/service-details">Try a Damo</Link>
+                                 <Link className="tp-btn-blue-lg purple-bg circle-effect mr-15 mb-20" href="/">Start your 14-day free trial  </Link>
+                                 <Link className="tp-btn-grey mb-20" href="/service-details">How it works</Link>
                               </div>
                            </div>
                         </div>
