@@ -12,6 +12,9 @@ const feature_data = [
         title: <>Capterra <br /> Contacts Sync</>,
         description: <>
         ⭐⭐⭐⭐⭐<br /></>,
+        title: <>Hubspot <br /> Contacts Sync</>,
+        description: <>Transfer contacts information <br />
+        between MailChimp</>,
 
     },
     {
@@ -21,6 +24,9 @@ const feature_data = [
         title: <>Trustpilot <br /> Contacts Sync</>,
         description: <>
         ⭐⭐⭐⭐⭐<br /></>,
+        title: <>Mailchimp <br /> Contacts Sync</>,
+        description: <>Transfer contacts information <br />
+        between MailChimp</>,
 
     },
     {
@@ -30,6 +36,9 @@ const feature_data = [
         title: <>CROWD <br /> Contacts Sync</>,
         description: <>
         ⭐⭐⭐⭐⭐<br /></>,
+        title: <>Salesforce <br /> Contacts Sync</>,
+        description: <>Transfer contacts information <br />
+        between MailChimp</>,
 
     },
     {
@@ -39,6 +48,8 @@ const feature_data = [
         title: <>Zendesk <br /> Contacts Sync</>,
         description: <>
         ⭐⭐⭐⭐⭐<br /></>,
+        description: <>Transfer contacts information <br />
+        between MailChimp</>,
 
     },
 ]

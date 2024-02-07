@@ -8,6 +8,7 @@ const testimonial_content = {
    bg_img: "/assets/img/testimonial/testi-bg-5-1.jpg",
    sub_title: "CLIENTS & PROJECTS",
    title: <>About Clients <span>Stories</span></>,
+   title: <>About Customer <span>Stories</span></>,
 }
 const { bg_img, sub_title, title } = testimonial_content
 
