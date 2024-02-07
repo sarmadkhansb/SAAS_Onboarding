@@ -9,27 +9,27 @@ const feature_data = [
         id: 1, 
         color: "1",
         img: feature_img_1,
-        title: <>Hubspot <br /> Contacts Sync</>,
-        description: <>Transfer contacts information <br />
-        between MailChimp</>,
+        title: <>Capterra <br /> Contacts Sync</>,
+        description: <>
+        ⭐⭐⭐⭐⭐<br /></>,
 
     },
     {
         id: 2, 
         color: "2",
         img: feature_img_2,
-        title: <>Mailchimp <br /> Contacts Sync</>,
-        description: <>Transfer contacts information <br />
-        between MailChimp</>,
+        title: <>Trustpilot <br /> Contacts Sync</>,
+        description: <>
+        ⭐⭐⭐⭐⭐<br /></>,
 
     },
     {
         id: 3, 
         color: "3",
         img: feature_img_3,
-        title: <>Salesforce <br /> Contacts Sync</>,
-        description: <>Transfer contacts information <br />
-        between MailChimp</>,
+        title: <>CROWD <br /> Contacts Sync</>,
+        description: <>
+        ⭐⭐⭐⭐⭐<br /></>,
 
     },
     {
@@ -37,8 +37,8 @@ const feature_data = [
         color: "4",
         img: feature_img_4,
         title: <>Zendesk <br /> Contacts Sync</>,
-        description: <>Transfer contacts information <br />
-        between MailChimp</>,
+        description: <>
+        ⭐⭐⭐⭐⭐<br /></>,
 
     },
 ]

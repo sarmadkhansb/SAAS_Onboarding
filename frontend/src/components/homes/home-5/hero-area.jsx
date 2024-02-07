@@ -8,7 +8,7 @@ import React, {useEffect} from 'react';
 import shape_1 from "../../../../public/assets/img/hero/hero-circle-5-1.png";
 import shape_2 from "../../../../public/assets/img/hero/hero-circle-5-2.png";
 import shape_3 from "../../../../public/assets/img/hero/hero-circle-5-3.png";
-import shape_4 from "../../../../public/assets/img/hero/hero-shape-5-1-1.png";
+import shape_4 from "../../../../public/assets/img/hero/shape-1.jpg";
 import shape_5 from "../../../../public/assets/img/hero/home-shape-1-1.png";
 import shape_6 from "../../../../public/assets/img/hero/home-shape-1-2.png";
 

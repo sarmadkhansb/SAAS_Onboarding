@@ -1,50 +1,62 @@
 import { AppContext } from "@/src/context/ContextProvider";
 import VideoPopup from "@/src/modals/video-popup";
-import React, {useState, useRef, useContext} from "react";
+import React, { useState, useRef, useContext } from "react";
 
+import shape_5 from "../../../../public/assets/img/hero/Dashboard.png";
 
 const VideoArea = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
-  const videoEl = useRef(null); 
-  const {handleMouseEnter,handleMouseLeave} = useContext(AppContext); 
-  
+  const videoEl = useRef(null);
+  const { handleMouseEnter, handleMouseLeave } = useContext(AppContext);
+
   return (
- 
     <>
       <div className="tp-vedio-area p-relative pt-120">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-10">
               <div className="tp-vedio-sction-box pb-70">
-                <h4 className="tp-vedio-title">
-                  The best customer relationship <br />
-                  management platform for just <br />
-                  about everything
-                </h4>
+                <h4 className="tp-vedio-title"></h4>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="tp-vedio-wrap" >
+              <div className="tp-vedio-wrap">
                 <a
-                  className="popup-video tp-cursor-point-area" 
+                  className="popup-video tp-cursor-point-area"
                   onClick={() => setIsVideoOpen(true)}
                   onMouseEnter={() => handleMouseEnter(true)}
-                  onMouseLeave={ () => handleMouseLeave(false)}
+                  onMouseLeave={() => handleMouseLeave(false)}
                 >
-                  <video                  
-                  className="play-video" 
-                  id="myVideo" 
-                  autoPlay 
-                  loop 
-                  playsInline
-                  muted
-                  alt="All the devices"
-                  src="https://youtu.be/TebnpN3Tacg"
-                  ref={videoEl}
-                  > 
-                  </video>
+                  <div style={{ position: "absolute", left: 0, right: 0, margin: "auto", transform: "translateY(-15%)" }}>
+                    <video
+                      className="play-video"
+                      id="myVideo"
+                      autoPlay
+                      loop
+                      playsInline
+                      muted
+                      alt="All the devices"
+                      src="https://youtu.be/TebnpN3Tacg"
+                      ref={shape_5}
+                      style={{ width: "100%", height: "absolute" }}
+                    ></video>
+
+                    <img
+                      src={shape_5.src}
+                      alt="Thumbnail Image"
+                      style={{
+                        position: "static",
+                        top: "50%",
+                        left: '',
+                        width: "40%",
+                        height: "center",
+                        transform: "translateY(-210%)",
+                        cursor: "pointer",
+                      }}
+                    />
+                  </div>
                 </a>
               </div>
             </div>
@@ -53,11 +65,7 @@ const VideoArea = () => {
       </div>
 
       {/* video modal start */}
-      <VideoPopup
-        isVideoOpen={isVideoOpen}
-        setIsVideoOpen={setIsVideoOpen}
-        videoId={"_RpLvsA1SNM"}
-      />
+      <VideoPopup isVideoOpen={isVideoOpen} setIsVideoOpen={setIsVideoOpen} videoId={"_RpLvsA1SNM"} />
       {/* video modal end */}
     </>
   );

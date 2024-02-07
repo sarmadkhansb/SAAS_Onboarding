@@ -5,8 +5,8 @@ import feature_data from '@/src/data/feature-data';
 
 
 const feature_content = {
-    title: <>About Customer <span>Stories</span></>,
-    des: <>Take your business to the next level with <span>09</span> accessible premium  extensions <br /> & different features</>,
+    title: <>Ready to give it a<span> try?</span></>,
+    des: <>You're in good company. <span>SPP is helping agencies like yours</span> sell millions of dollars in services every week. <br /> </>,
     integraton_title: "What you will get",
     integraton_des: <>Take your business to the next level with  <span> 09</span> accessible premium  extensions <br /> & different features</>,
 }
@@ -51,9 +51,6 @@ const FeatureArea = ({style_integraton}) => {
                                         <div className="tp-feature-five-content">
                                             <h4 className="tp-feature-five-title-sm">{item.title}</h4>
                                             <p>{item.description}</p>
-                                        </div>
-                                        <div className="tp-feature-five-btn">
-                                            <Link className="tp-btn-purple" href="/service-details">Learn More</Link>
                                         </div>
                                     </div>
                                 </div>
