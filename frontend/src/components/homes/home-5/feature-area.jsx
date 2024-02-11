@@ -5,6 +5,8 @@ import feature_data from '@/src/data/feature-data';
 
 
 const feature_content = {
+    title: <>Ready to give it a<span> try?</span></>,
+    des: <>You're in good company. <span>SPP is helping agencies like yours</span> sell millions of dollars in services every week. <br /> </>,
     title: <>About Customer <span>Stories</span></>,
     des: <>Take your business to the next level with <span>09</span> accessible premium  extensions <br /> & different features</>,
     integraton_title: "What you will get",

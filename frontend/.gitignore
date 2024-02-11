@@ -3,9 +3,7 @@
 # folder
 /documentation
 documentation
-/backend
-backend
-backend/
+
 # dependencies
 /node_modules
 /.pnp

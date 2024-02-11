@@ -6,9 +6,9 @@ import SingnInArea from "./singn-in-area";
 const SignIn = () => {
   return (
     <>
-      <HeaderSeven />
+      {/* <HeaderSesven /> */}
       <SingnInArea />
-      <FooterFive style_contact={true} style_team={true} />
+      {/* <FooterFive style_contact={true} style_team={true} /> */}
     </>
   );
 };

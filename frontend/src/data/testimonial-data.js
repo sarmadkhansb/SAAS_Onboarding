@@ -167,8 +167,7 @@ const testimonial_data = [
         brand_icon: brand_icon_1,
         name: "Joann J.",
         title: "Community Organiser",  
-        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
-        lovers are always looking this kind of feature on their own website. ”</>,
+        description: <>“ No other solution has matched the quality and simplicity that SPP offers. On top of that, their support is outstanding. ”</>,
 
     },
     {
@@ -187,8 +186,7 @@ const testimonial_data = [
         brand_icon: brand_icon_3,
         name: "Steven G.",
         title: "Community Organiser",  
-        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
-        lovers are always looking this kind of feature on their own website. ”</>,
+        description: <>“ No other solution has matched the quality and simplicity that SPP offers. On top of that, their support is outstanding. ”</>,
 
     },
     {
